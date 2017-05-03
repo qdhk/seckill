@@ -6,6 +6,7 @@ package org.seckill.dto;
 //所有ajax请求返回类型，封装json结果
 public class SeckillResult<T> {
 
+    //请求是否成功，并非秒杀是否成功
     private boolean success;
 
     private T data;
